@@ -7,7 +7,7 @@ import requests
 import pprint
 import time
 
-response=requests.get("https://api.openweathermap.org/data/2.5/weather?lat=8.4833&lon=76.9167&units=metric&appid=352ccfe122f66e02873bedc446ebca9f")
+response=requests.get("insert your api key here")
 print("status code:",response.status_code)
 print()
 weather=response.json()['main']
