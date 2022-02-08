@@ -7,7 +7,8 @@ import requests
 import pprint
 import time
 
-response=requests.get("insert your api key here")
+#insert your unique api key below
+response=requests.get("insert  api key here")
 print("status code:",response.status_code)
 print()
 weather=response.json()['main']
