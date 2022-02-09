@@ -1,5 +1,4 @@
-# openweatherapi
-A simple python script to get weather details from open weather api and display them on an ssd1306 oled module(i2c protocol) using a raspberry pi
+# weather stats using python
 
 api documentation:https://openweathermap.org/current
 
